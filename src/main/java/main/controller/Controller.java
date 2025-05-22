@@ -16,6 +16,7 @@ public class Controller {
     private double totalSum = 0;
     private int finished = 0;
 
+    @FXML
     public void controller(){
         Function function = new Function();
 
