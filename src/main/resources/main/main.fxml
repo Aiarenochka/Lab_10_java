@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="259.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.Controller">
+    <top>
+        <AnchorPane prefHeight="264.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+            <TextField fx:id="countN" layoutX="15.0" layoutY="64.0" prefHeight="25.0" prefWidth="150.0" />
+            <TextField fx:id="countThreads" layoutX="15.0" layoutY="124.0" prefHeight="25.0" prefWidth="150.0" />
+            <Button layoutX="15.0" layoutY="157.0" mnemonicParsing="false" onAction="#controller" prefWidth="150" text="Обчислити" />
+            <Label layoutX="15.0" layoutY="47.0" text="Кількість інтервалів розбиття" />
+            <Label layoutX="15.0" layoutY="101.0" text="Кількість потоків" />
+            <Separator layoutX="181.0" orientation="VERTICAL" prefHeight="262.0" prefWidth="4.0" />
+            <Separator layoutY="36.0" prefHeight="3.0" prefWidth="400.0" />
+            <Label layoutX="264.0" layoutY="11.0" text="Результат" />
+            <Label layoutX="46.0" layoutY="11.0" text="Введення даних" />
+            <TextFlow fx:id="outputText" layoutX="189.0" layoutY="44.0" prefHeight="211.0" prefWidth="203.0" />
+        </AnchorPane>
+    </top>
+</BorderPane>
